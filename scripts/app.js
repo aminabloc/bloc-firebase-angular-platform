@@ -29,6 +29,10 @@ var app = angular
         templateUrl: 'views/browse.html',
         controller: 'BrowseController'
       })
+      .when('/myprofile', {
+        templateUrl: 'views/profile.html',
+        controller: 'ProfileController'
+      })
       .when('/register', {
         templateUrl: 'views/register.html',
         controller: 'AuthController'

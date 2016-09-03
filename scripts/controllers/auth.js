@@ -39,6 +39,7 @@ app.controller('AuthController', function($scope, $location, toaster, Auth) {
       });
   };
 
+
 	function errMessage(err) {
 
     var msg = "Unknown Error...";

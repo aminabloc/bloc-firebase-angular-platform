@@ -12,6 +12,8 @@ app.factory('Auth', function(FURL, $firebaseAuth, $firebase) {
       var profile = {
         name: user.name,
         email: user.email,
+        school: " ",
+        
         gravatar: get_gravatar(user.email, 40)
       };
 
